@@ -1,6 +1,6 @@
-#How To Set Up a React Project with Vite
+# How To Set Up a React Project with Vite
 
-#Prerequisites
+# Prerequisites
 1.You need to install Node.js version 12.2.0 or higher
 2.Familiarity with HTML, CSS, and modern JavaScript. It also helps to know modern JS used in React.
 3.A foundational knowledge of React.
@@ -36,7 +36,7 @@ $ npm install
 
 After that all the necessary dependencies will be installed
 
-#Step 2 — Starting the Development Server
+# Step 2 — Starting the Development Server
 
 In this step, you will start the development server to verify that everything is working.
 
