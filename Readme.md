@@ -11,14 +11,14 @@ Fork this repository by clicking on the fork button on the top of this page. Thi
 Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
 
 Open a terminal and run the following git command:
-$ git clone "url you just copied"
+$ git clone https://github.com/your-username/netflix-clone.git
 
 
-where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
+where "your-username" (without the quotation marks) is your github username.
 
 For example:
 
-$ git clone git@github.com:this-is-you/netflix-clone.git
+$ git clone https://github.com/Dhruv-Sood/netflix-clone.git
 
 where this-is-you is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
 
