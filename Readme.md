@@ -33,7 +33,9 @@ $ npm install
 All necessary dependencies will be installed.Then you have to go to src folder and then request.js file. in that file please add your own TMDB API KEY.
 
 then run your project locally by run the command
+
 $ npm run dev
+
 that command will run this project locally on your network http://your_ip_address:5173/
 
 Best of Luck
