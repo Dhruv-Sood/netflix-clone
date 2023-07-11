@@ -1,51 +1,39 @@
 # How To Set Up a React Project with Vite
 
 # Prerequisites
-1.You need to install Node.js version 12.2.0 or higher
-2.Familiarity with HTML, CSS, and modern JavaScript. It also helps to know modern JS used in React.
-3.A foundational knowledge of React.
+If you don't have git on your machine, install it.
+
+# Fork the Repository
+Fork this repository by clicking on the fork button on the top of this page. This will create a copy of this repository in your account.
+
+# Clone This Repository
+
+Now clone the forked repository to your machine. Go to your GitHub account, open the forked repository, click on the code button and then click the copy to clipboard icon.
+
+Open a terminal and run the following git command:
+$ git clone "url you just copied"
 
 
-# Step 1:Creating a vite Project
-$ npm create vite
+where "url you just copied" (without the quotation marks) is the url to this repository (your fork of this project). See the previous steps to obtain the url.
 
-This command will run the Vite executable from the remote npm repository. It will configure the necessary tools to scaffold a React local development environment. Finally, it will open a command-line menu for project settings and language type.
+For example:
 
-After the script finishes, you will be prompted to enter a project name:
-Type your project name.ex. your-projectname
-After entering your project name, Vite will prompt you to select a framework:
+$ git clone git@github.com:this-is-you/netflix-clone.git
 
-Vite allows you to bootstrap a range of project types, not just React. Currently, it supports React, Preact, Vue, Lit, Svelte, and vanilla JavaScript projects.
+where this-is-you is your GitHub username. Here you're copying the contents of the first-contributions repository on GitHub to your computer.
 
-Use your keyboard arrow key to select React.
+Change to the repository directory on your computer (if you are not already there):
+$ cd netflic-clone
 
-After selecting the React framework, Vite will prompt you to choose the language type. You can use JavaScript or TypeScript to work on your project.
+# Run the Project
 
-Use your arrow keys to select JavaScript:
-
-After setting up the framework, you will see an output that the project has been scaffolded. Vite will then instruct you to install dependencies using npm:
-
-Navigate to your project folder as directed:
-
-
-$ cd your-projectname
-
-Then, use the yarn command to install the dependencies of the project:
-
+In order to to run it you can just run the command:
 $ npm install
 
-After that all the necessary dependencies will be installed
+All necessary dependencies will be installed.Then you have to go to src folder and then request.js file. in that file please add your own TMDB API KEY.
 
-# Step 2 — Starting the Development Server
-
-In this step, you will start the development server to verify that everything is working.
-
-From inside the you-projectname folder, use the following command to run the development server:
-
-$npm run dev
-
-This command is an alias of the vite command. It will run your project in development mode.
-
-Next, open your browser and visit http://localhost:5173/. The default React project will be running on port 5173:
+then run your project locally by run the command
+$ npm run dev
+that command will run this project locally on your network http://your_ip_address:5173/
 
 Best of Luck
